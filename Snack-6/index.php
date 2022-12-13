@@ -52,10 +52,10 @@ $federicoPellegrini= '';
        
         //Michele Papagni
         $michelePagani =  $teachers[0]['name'] .'-' . $teachers[0]['lastname'];
-        echo $michelePagani;
+        //echo $michelePagani;
         //Fabio Forghieri
         $fabioForghieri =  $teachers[1]['name'] .'-' . $teachers[1]['lastname'];
-        echo $fabioForghieri;
+        //echo $fabioForghieri;
         
         //--------------------------------------------------------------------------// 
 
@@ -63,22 +63,20 @@ $federicoPellegrini= '';
         $pm = $db['pm'];
         //robertoMarazzini
         $robertoMarazzini =  $pm[0]['name'] .'-' . $pm[0]['lastname'];
-        echo$robertoMarazzini;
+        //echo$robertoMarazzini;
 
         //federicoPellegrini
         $federicoPellegrini =  $pm[1]['name'] .'-' . $pm[1]['lastname'];
-        echo $federicoPellegrini;
+        //echo $federicoPellegrini;
         
          //attribuisco a una variabile la stringa pm
         $titlePm = array_keys($db)[1];
         //attribuisco a una variabile la stringa teachers
         $titleTeachers = array_keys($db)[0];
 
-  
-        
     }
-     echo $titleTeachers ;
-     echo  $titlePm  ;
+     //echo $titleTeachers ;
+     //echo  $titlePm  ;
    
  
 ?>
