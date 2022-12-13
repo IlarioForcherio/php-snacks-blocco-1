@@ -19,9 +19,6 @@ for($i= 0; $i < count($newArray); $i++ ){
     echo '<p>' . $newArray[$i] . '</p>';
 }
 
-
-
-
 ?>
 
 <!DOCTYPE html>
